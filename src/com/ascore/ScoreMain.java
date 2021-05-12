@@ -22,7 +22,10 @@ public class ScoreMain {
 			case '4' : score.listAll();break;
 			case '5' : score.searchHak();break;
 			case '6' : score.searchName();break;
-			case '7' : System.exit(0);break;
+			case '7' : 
+				System.out.println("프로그램을 종료합니다");
+				System.exit(0);
+				break;
 			}
 		}
 	}
